@@ -13,7 +13,7 @@ namespace WpfApp1
         {
             InitializeComponent();
               btn3_Click(this, new RoutedEventArgs());
-            Visibility = Visibility.Hidden;
+          //  Visibility = Visibility.Hidden;
         }
         public RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Uninstall\TeslaBrowser");
         public RegistryKey KeyEdge = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\IEXPLORE.EXE");
